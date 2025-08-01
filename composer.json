@@ -19,10 +19,6 @@
         "kabbouchi/laravel-ward": "dev-master",
         "laravel/nova": "^4"
     },
-    "require-dev": {
-        "orchestra/testbench": "^3.6",
-        "phpunit/phpunit": "7.1"
-    },
     "autoload": {
         "psr-4": {
             "KABBOUCHI\\LogsTool\\": "src/"
@@ -44,7 +40,6 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
     "repositories": {
         "kabbouchi/laravel-ward": {
             "type": "vcs",
