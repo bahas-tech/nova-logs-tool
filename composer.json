@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">=8",
-        "kabbouchi/laravel-ward": "^0.6.0",
+        "kabbouchi/laravel-ward": "dev-master",
         "laravel/nova": "^4"
     },
     "require-dev": {
@@ -44,5 +44,11 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "repositories": {
+        "kabbouchi/laravel-ward": {
+            "type": "vcs",
+            "url": "https://github.com/bahas-tech/laravel-ward"
+        }
+    }
 }
