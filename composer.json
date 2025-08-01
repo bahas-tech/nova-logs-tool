@@ -17,7 +17,7 @@
     "require": {
         "php": ">=8",
         "kabbouchi/laravel-ward": "dev-master",
-        "laravel/nova": "^4"
+        "laravel/nova": "^4|^5"
     },
     "autoload": {
         "psr-4": {
